@@ -1,0 +1,23 @@
+Generated: 2026-02-28T23:49:20.429319
+Count: 2
+============================================================
+
+--- Dialogue (seed=100000) ---
+Topic: payment_issue
+Outcome: resolved_quick
+Style: formal
+
+Client: I need to speak with someone who can help with my bank account issues, not this department.
+Agent: Oh, I see. Let's get your payment issue sorted then. Can you tell me more?
+
+--- Dialogue (seed=100100) ---
+Topic: payment_issue
+Outcome: unresolved_passive
+Style: casual
+
+Client: My order was charged twice! You're just trying to scam us
+Agent: I can understand why that would be upsetting, let's look into it right away.
+Client: It’s deliberate; you always have issues like this!
+Agent: I assure you we’re here to help resolve any issues quickly.
+Client: Okay, maybe you're not lying. Can you fix it now?
+Client: thanks for your help. i’ll wait and see.

@@ -1,0 +1,200 @@
+Dialogue Analysis Summary
+Model: glm-4.7
+Total dialogues: 10
+============================================================
+
+--- seed=100000 | payment_issue | resolved_quick ---
+  Summary: The client reported a declined payment and expressed dissatisfaction with the service. The agent immediately offered to investigate the issue, leading to a quick resolution.
+  Emotional arc: deescalates
+  Resolution quality: good
+  Agent empathy: 0.6
+  Agent effectiveness: 0.9
+  Client satisfaction: 0.8
+  Conflict level: low
+  Key moments:
+    - Client reports declined payment
+    - Agent offers immediate assistance
+  Per-message emotions:
+    turn 1 (client): frustrated [0.6]
+    turn 2 (agent): neutral [0.1]
+
+--- seed=100100 | payment_issue | unresolved_passive ---
+  Summary: The client begins the interaction angry and suspicious about a stuck payment, accusing the agent of stalling and potential scamming. The agent successfully deescalates the situation by apologizing and validating the client's frustration, though the actual payment issue remains unresolved. The conversation ends on a passive note with the client expressing gratitude for the agent's attempt to help.
+  Emotional arc: deescalates
+  Resolution quality: mediocre
+  Agent empathy: 0.8
+  Agent effectiveness: 0.4
+  Client satisfaction: 0.5
+  Conflict level: medium
+  Key moments:
+    - Client accuses agent of stalling
+    - Client expresses fear of a scam
+    - Agent validates client's feelings
+    - Client accepts agent's effort despite unresolved issue
+  Per-message emotions:
+    turn 1 (client): angry [0.8]
+    turn 2 (agent): apologetic [0.5]
+    turn 3 (client): frustrated [0.7]
+    turn 4 (agent): neutral [0.3]
+    turn 5 (client): hopeful [0.4]
+    turn 6 (client): grateful [0.3]
+
+--- seed=100200 | technical_error | resolved_neutral ---
+  Summary: The client is frustrated that a policy is not working after trying all day. The agent apologizes for a previous delay, admits to a mistake, and informs the client that the issue should now be resolved.
+  Emotional arc: deescalates
+  Resolution quality: mediocre
+  Agent empathy: 0.6
+  Agent effectiveness: 0.8
+  Client satisfaction: 0.4
+  Conflict level: medium
+  Key moments:
+    - Client expresses frustration over policy failure
+    - Agent admits to previous mistake
+    - Agent states issue is resolved
+  Per-message emotions:
+    turn 1 (client): frustrated [0.8]
+    turn 2 (agent): neutral [0.1]
+    turn 3 (client): demanding [0.9]
+    turn 4 (agent): apologetic [0.5]
+    turn 5 (agent): neutral [0.2]
+
+--- seed=100300 | technical_error | conflict ---
+  Summary: The client expresses anger over a repeated flight cancellation and aggressively demands a voucher. The agent complies with the request but introduces a new point of friction by mentioning system delays, resulting in a mediocre resolution.
+  Emotional arc: escalates
+  Resolution quality: mediocre
+  Agent empathy: 0.3
+  Agent effectiveness: 0.6
+  Client satisfaction: 0.3
+  Conflict level: high
+  Key moments:
+    - Client complains about repeated cancellation
+    - Client demands compensation
+    - Agent offers voucher
+    - Agent cites system delay
+  Per-message emotions:
+    turn 1 (client): angry [0.8]
+    turn 2 (agent): neutral [0.2]
+    turn 3 (client): demanding [0.9]
+    turn 4 (agent): neutral [0.1]
+    turn 5 (agent): neutral [0.1]
+
+--- seed=100400 | account_access | resolved_quick ---
+  Summary: The client urgently requests a password reset and expresses frustration with the verification process. The agent maintains a professional demeanor, verifies the identity, and successfully initiates the reset.
+  Emotional arc: rollercoaster
+  Resolution quality: good
+  Agent empathy: 0.3
+  Agent effectiveness: 0.9
+  Client satisfaction: 0.6
+  Conflict level: low
+  Key moments:
+    - Client demands urgent reset
+    - Client complains about speed
+    - Agent initiates reset
+  Per-message emotions:
+    turn 1 (client): demanding [0.8]
+    turn 2 (agent): neutral [0.1]
+    turn 3 (client): frustrated [0.6]
+    turn 4 (agent): neutral [0.1]
+    turn 5 (client): frustrated [0.5]
+    turn 6 (agent): neutral [0.1]
+
+--- seed=100500 | account_access | unresolved_ragequit ---
+  Summary: The client expresses frustration over a two-day login outage that is blocking access to medical information. The agent provides robotic, unhelpful responses, causing the client's anger to spike before they ultimately give up and leave the conversation unresolved.
+  Emotional arc: rollercoaster
+  Resolution quality: poor
+  Agent empathy: 0.2
+  Agent effectiveness: 0.1
+  Client satisfaction: 0.1
+  Conflict level: high
+  Key moments:
+    - Client mentions urgent medical need
+    - Client demands immediate fix
+    - Client gives up in resignation
+  Per-message emotions:
+    turn 1 (client): frustrated [0.4]
+    turn 2 (agent): neutral [0.1]
+    turn 3 (client): angry [0.8]
+    turn 4 (agent): neutral [0.1]
+    turn 5 (client): demanding [0.7]
+    turn 6 (agent): neutral [0.2]
+    turn 7 (client): resigned [0.5]
+
+--- seed=100600 | billing_question | info_only ---
+  Summary: The client inquired about a missing bill, expressing urgency due to a payment plan. The agent checked the status and promised to expedite the bill's arrival within 24 hours.
+  Emotional arc: deescalates
+  Resolution quality: good
+  Agent empathy: 0.6
+  Agent effectiveness: 0.8
+  Client satisfaction: 0.7
+  Conflict level: low
+  Key moments:
+    - Client expresses urgency about payment plan
+    - Agent promises expedited delivery
+  Per-message emotions:
+    turn 1 (client): frustrated [0.6]
+    turn 2 (agent): neutral [0.1]
+    turn 3 (client): anxious [0.8]
+    turn 4 (agent): neutral [0.1]
+    turn 5 (agent): neutral [0.1]
+
+--- seed=100700 | billing_question | resolved_neutral ---
+  Summary: The client insisted their bill was incorrect and expressed frustration about having to verify the account. The agent apologized for a delay, identified a refund error from the previous month, and immediately adjusted the account.
+  Emotional arc: deescalates
+  Resolution quality: good
+  Agent empathy: 0.5
+  Agent effectiveness: 0.8
+  Client satisfaction: 0.6
+  Conflict level: medium
+  Key moments:
+    - Client insists on billing error
+    - Client questions verification process
+    - Agent identifies refund error
+  Per-message emotions:
+    turn 1 (client): demanding [0.6]
+    turn 2 (agent): neutral [0.1]
+    turn 3 (client): frustrated [0.7]
+    turn 4 (agent): apologetic [0.3]
+    turn 5 (agent): neutral [0.2]
+
+--- seed=100800 | refund_request | unresolved_passive ---
+  Summary: The client complained about cleanliness and service, using sarcasm to criticize the hotel's reputation. The agent failed to address the emotional tone or specific issues effectively, leading the client to impatiently end the interaction without a resolution.
+  Emotional arc: rollercoaster
+  Resolution quality: poor
+  Agent empathy: 0.2
+  Agent effectiveness: 0.2
+  Client satisfaction: 0.3
+  Conflict level: medium
+  Key moments:
+    - Client complains about cleanliness
+    - Client uses sarcasm regarding hotel status
+    - Client demands speed
+    - Client abruptly ends chat
+  Per-message emotions:
+    turn 1 (client): frustrated [0.6]
+    turn 2 (agent): neutral [0.1]
+    turn 3 (client): sarcastic [0.7]
+    turn 4 (agent): neutral [0.1]
+    turn 5 (client): demanding [0.5]
+    turn 6 (client): resigned [0.2]
+
+--- seed=100900 | refund_request | resolved_quick ---
+  Summary: The client starts off angry about a service issue, expressing frustration with the company's decline. The agent quickly deescalates the situation by acknowledging the client's feelings and offering to expedite the refund, leading to a positive resolution where the client apologizes for their initial outburst.
+  Emotional arc: deescalates
+  Resolution quality: good
+  Agent empathy: 0.6
+  Agent effectiveness: 0.9
+  Client satisfaction: 0.8
+  Conflict level: medium
+  Key moments:
+    - Client expresses frustration with 'BS'
+    - Agent offers to expedite
+    - Client apologizes for yelling
+  Per-message emotions:
+    turn 1 (client): angry [0.8]
+    turn 2 (agent): neutral [0.1]
+    turn 3 (client): demanding [0.7]
+    turn 4 (agent): neutral [0.1]
+    turn 5 (client): resigned [0.4]
+    turn 6 (agent): neutral [0.2]
+    turn 7 (client): grateful [0.6]
+    turn 8 (agent): neutral [0.1]

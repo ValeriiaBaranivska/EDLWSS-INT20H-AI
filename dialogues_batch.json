@@ -1,0 +1,2011 @@
+{
+  "generated": "2026-02-28T23:17:25.644599",
+  "count": 20,
+  "dialogues": [
+    {
+      "id": "50b1cd6b-f4c0-451c-9499-67e5261690fe",
+      "seed": 200000,
+      "params": {
+        "seed": 200000,
+        "complexity": "simple",
+        "sector": "hospitality",
+        "topic": "payment_issue",
+        "outcome": "resolved_quick",
+        "style": "formal",
+        "client_archetype": "calling_bluff",
+        "agent_archetype": "newbie_overwhelmed",
+        "twist": "none",
+        "conflict_type": "technical_issue",
+        "emotional_arc": "deescalates",
+        "n_messages": 4,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Victoria",
+          "mood": "tense",
+          "personality": [
+            "sharp tongue",
+            "dramatic"
+          ],
+          "backstory": "Dealing with financial stress from a recent payment dispute, viewing it as a personal failure.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Jamie",
+          "mood": "overwhelmed",
+          "personality": [
+            "doubtful",
+            "novice"
+          ],
+          "backstory": "Navigating a complex ticketing system while handling the volume of incoming messages.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "I need this fixed immediately or I'll cancel my account.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "Um, can you tell me more about the issue?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "The bill is incorrect; it’s OVERCHARGED by $50!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "Uh, i see. Let's get that adjusted right away.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 25.14,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "hesitation_prepend:turn2",
+          "caps_burst:turn3",
+          "hesitation_prepend:turn4"
+        ]
+      }
+    },
+    {
+      "id": "2964ad0f-53a7-41f3-846c-5192e4241d0f",
+      "seed": 200100,
+      "params": {
+        "seed": 200100,
+        "complexity": "complex",
+        "sector": "healthcare",
+        "topic": "payment_issue",
+        "outcome": "unresolved_passive",
+        "style": "casual",
+        "client_archetype": "young_professional",
+        "agent_archetype": "by_the_book",
+        "twist": "agent_breaks_protocol",
+        "conflict_type": "wrong_info_given",
+        "emotional_arc": "escalates",
+        "n_messages": 8,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Emily",
+          "mood": "frustrated",
+          "personality": [
+            "always on the go",
+            "polite but brusque"
+          ],
+          "backstory": "Dealing with a disputed invoice and having to dip into her own savings for unexpected business expenses.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Aurora",
+          "mood": "frustrated",
+          "personality": [
+            "no-nonsense",
+            "focused",
+            "conscientious"
+          ],
+          "backstory": "Has spent years perfecting her craft and adhering to every protocol, guideline, and policy as a support agent.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "uh, payment got deducted twice last week. When's my refund?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "Check your account; it should process today.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "it’s already been a week! why isn't it there yet?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "I'll expedite the process for you right now.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "thanks, but it better be quick.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "Your refund will be processed by EOD today.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 7,
+          "content": "fine. just make sure it happens.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 8,
+          "content": "alright, thanks.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 26.85,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "filler_prepend:turn1",
+          "lowercase:turn3",
+          "lowercase:turn5",
+          "lowercase:turn7",
+          "lowercase:turn8"
+        ]
+      }
+    },
+    {
+      "id": "b094ec00-8390-4dd1-bc79-f0c051b62847",
+      "seed": 200200,
+      "params": {
+        "seed": 200200,
+        "complexity": "simple",
+        "sector": "hospitality",
+        "topic": "payment_issue",
+        "outcome": "conflict",
+        "style": "aggressive",
+        "client_archetype": "entitled_parent",
+        "agent_archetype": "stressed_multitask",
+        "twist": "none",
+        "conflict_type": "billing_error",
+        "emotional_arc": "escalates",
+        "n_messages": 4,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Karen",
+          "mood": "fuming",
+          "personality": [
+            "frustrated",
+            "convinced"
+          ],
+          "backstory": "A parent whose child's gaming account has been suspended due to unpaid fees, believing her child should be exempt due to talent and recent full payment for the service",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Kaida",
+          "mood": "frantic",
+          "personality": [
+            "sharp",
+            "racing thoughts"
+          ],
+          "backstory": "Experienced in handling multiple customer inquiries efficiently, but struggling with the workload.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "This is ridiculous! My kid's room wasn't cleaned today, and you're telling me to pay extra?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "Let’s see the details.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "frustrqtion is an understatememt! you’re npt jelping!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "multitasking here, i’m sorry if there was a mix-up. Can you provide your order number?",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 26.51,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "typo_keyboard_typo:turn3",
+          "lowercase:turn3",
+          "multitask_interrupt:turn4"
+        ]
+      }
+    },
+    {
+      "id": "a134d922-d088-4607-bbb3-13cc952f113c",
+      "seed": 200300,
+      "params": {
+        "seed": 200300,
+        "complexity": "complex",
+        "sector": "travel",
+        "topic": "payment_issue",
+        "outcome": "resolved_neutral",
+        "style": "passive_aggressive",
+        "client_archetype": "conspirologist",
+        "agent_archetype": "eager_helper",
+        "twist": "unresolved_escalate",
+        "conflict_type": "policy_dispute",
+        "emotional_arc": "escalates",
+        "n_messages": 8,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Jasmine",
+          "mood": "skeptical",
+          "personality": [
+            "determined",
+            "suspicious"
+          ],
+          "backstory": "Lost trust in several online businesses due to suspicious practices and is determined to expose what she perceives as the company's wrongdoing.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Maya",
+          "mood": "frazzled",
+          "personality": [
+            "warm",
+            "dedicated",
+            "enthusiastic"
+          ],
+          "backstory": "Has been working a double shift all day and is tackling an overflowing queue of issues.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "Why is my payment still pending? You're just making things harder.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I understand you’re frustrated, but let’s check this together quickly.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "this isn’t quick enough! it should be fixed by now!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "I see why you’d feel that way. Let me verify right now.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "Just hurry up, please.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "Hold on one sec more; your payment is processing.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 7,
+          "content": "Typical. Takes forever.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 8,
+          "content": "I’ll expedite it for you personally. Trust me, we’ve got this sorted.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 27.1,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "lowercase:turn3"
+        ]
+      }
+    },
+    {
+      "id": "03372eda-4907-4fb3-a606-9a71298b31c0",
+      "seed": 200400,
+      "params": {
+        "seed": 200400,
+        "complexity": "complex",
+        "sector": "banking",
+        "topic": "technical_error",
+        "outcome": "resolved_neutral",
+        "style": "casual",
+        "client_archetype": "calling_bluff",
+        "agent_archetype": "stressed_multitask",
+        "twist": "ragequit",
+        "conflict_type": "company_fault",
+        "emotional_arc": "rollercoaster",
+        "n_messages": 6,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Regina",
+          "mood": "lousy",
+          "personality": [
+            "always 'on it'",
+            "convinced"
+          ],
+          "backstory": "She's had multiple frustrating online purchases go awry and feels companies without proper tech are a waste of time.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Maya",
+          "mood": "frazzled",
+          "personality": [
+            "stressed",
+            "multitasking"
+          ],
+          "backstory": "Dealing with multiple urgent customer inquiries in a chaotic work environment.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "My account just froze, and I can't log in! When will you fix this?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "We're working on it. Just a minute more.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "hgh, why is nobody taking responsibilkty?!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "I'm sorry for the inconvenience. Let's get this sorted now.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "Fine. But if it takes much longer, I’m done with you guys.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "[brb 1 sec] got it. We'll resolve this quickly. Thanks for your patience.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 26.96,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "typo_keyboard_typo:turn3",
+          "multitask_interrupt:turn6"
+        ]
+      }
+    },
+    {
+      "id": "316002ac-df5f-46de-a30d-33288a97ab22",
+      "seed": 200500,
+      "params": {
+        "seed": 200500,
+        "complexity": "complex",
+        "sector": "retail",
+        "topic": "technical_error",
+        "outcome": "conflict",
+        "style": "aggressive",
+        "client_archetype": "entitled_parent",
+        "agent_archetype": "eager_helper",
+        "twist": "company_acknowledges_fault",
+        "conflict_type": "none",
+        "emotional_arc": "escalates",
+        "n_messages": 5,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Regina",
+          "mood": "high-strung",
+          "personality": [
+            "patient",
+            "fearful"
+          ],
+          "backstory": "Her anger is fueled by a deep-seated fear of failure, which she attributes not only to her child but also to herself as a parent who should have everything under control.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Alex",
+          "mood": "refreshed",
+          "personality": [
+            "eager",
+            "can-do"
+          ],
+          "backstory": "A customer support specialist feeling ready to tackle the day's challenges after a brief morning break.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "My child's account got locked out, and it won't let us log in! This is ridiculous",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "That, ma'am. Let's get this sorted right away.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "it's been an hour, and nothing! my child is upset!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "This must be. Let me check the status again quickly.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 5,
+          "content": "We've identified the issue, and it was our fault. We'll unlock the account now.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 26.59,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "punct_drop:turn1",
+          "lowercase:turn3"
+        ]
+      }
+    },
+    {
+      "id": "b1d23710-0a13-4c52-b34d-65d7b49a1c87",
+      "seed": 200600,
+      "params": {
+        "seed": 200600,
+        "complexity": "simple",
+        "sector": "retail",
+        "topic": "technical_error",
+        "outcome": "unresolved_ragequit",
+        "style": "formal",
+        "client_archetype": "angry_veteran",
+        "agent_archetype": "burned_out",
+        "twist": "ragequit",
+        "conflict_type": "account_access",
+        "emotional_arc": "rollercoaster",
+        "n_messages": 2,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Alexandra",
+          "mood": "frustrated",
+          "personality": [
+            "loyal",
+            "annoyed"
+          ],
+          "backstory": "A retired military officer whose trust in the company is eroding due to recent issues with order services, contrasting her seamless experiences from the past.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Jasmine",
+          "mood": "worn-out",
+          "personality": [
+            "enthusiasm dwindling",
+            "patient",
+            "mechanical"
+          ],
+          "backstory": "has been stuck in a rut for months, contemplating resignation.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "I've tried everything, but nothing works! Why can't you fix this technical glitch?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 2,
+          "content": "This is unacceptable! You guys are no good anymore!",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 24.8,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": []
+      }
+    },
+    {
+      "id": "33337b74-9d7c-4531-889f-997844db2979",
+      "seed": 200700,
+      "params": {
+        "seed": 200700,
+        "complexity": "simple",
+        "sector": "insurance",
+        "topic": "technical_error",
+        "outcome": "resolved_quick",
+        "style": "casual",
+        "client_archetype": "grieving",
+        "agent_archetype": "veteran_tired",
+        "twist": "none",
+        "conflict_type": "policy_dispute",
+        "emotional_arc": "stable",
+        "n_messages": 2,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Jamie",
+          "mood": "frustrated",
+          "personality": [
+            "laid-back",
+            "easy-going"
+          ],
+          "backstory": "Struggling to come to terms with her mom's recent passing, dealing with a tech issue that wiped out family photos.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Karen",
+          "mood": "resigned",
+          "personality": [
+            "detached",
+            "experienced"
+          ],
+          "backstory": "Gained over five years of experience as a support agent, dealing with absurd customer complaints.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "this policy stuff is stressing me out way too much right now",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I get it, let's fix this quick.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 24.67,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "lowercase:turn1",
+          "punct_drop:turn1"
+        ]
+      }
+    },
+    {
+      "id": "5a2ffde8-2d13-4358-87e1-cf76e9d11f49",
+      "seed": 200800,
+      "params": {
+        "seed": 200800,
+        "complexity": "complex",
+        "sector": "insurance",
+        "topic": "account_access",
+        "outcome": "resolved_quick",
+        "style": "formal",
+        "client_archetype": "wrong_department",
+        "agent_archetype": "newbie_overwhelmed",
+        "twist": "legal_escalation",
+        "conflict_type": "company_fault",
+        "emotional_arc": "rollercoaster",
+        "n_messages": 7,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Regina",
+          "mood": "frustrated",
+          "personality": [
+            "unflappable",
+            "wary"
+          ],
+          "backstory": "Her livelihood depends on timely access to sensitive financial data, and she's falling behind schedule due to a client portal outage.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Emily",
+          "mood": "anxious",
+          "personality": [
+            "eager",
+            "inexperienced"
+          ],
+          "backstory": "Still getting accustomed to her support agent role despite being eager to prove herself.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "I need to speak with someone who can actually help me, not just run circles around my issue.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "One moment — oh, I see. Let’s try to sort this out quickly for you.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "It's about my insurance claim; it’s been stalled for weeks.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "Can you give me some details?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "My policy number is 1234567890, and the claim WAS filed two months ago.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "Thanks. I’ll look into that right away.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 7,
+          "content": "We found an issue with your case. It might require legal review. Let’s proceed carefully.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 27.64,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "hesitation_prepend:turn2",
+          "caps_burst:turn5"
+        ]
+      }
+    },
+    {
+      "id": "fca1cfb2-7171-47cb-929c-4454717e20f2",
+      "seed": 200900,
+      "params": {
+        "seed": 200900,
+        "complexity": "complex",
+        "sector": "hospitality",
+        "topic": "account_access",
+        "outcome": "unresolved_ragequit",
+        "style": "aggressive",
+        "client_archetype": "self_inflicted",
+        "agent_archetype": "hands_tied",
+        "twist": "ragequit",
+        "conflict_type": "wrong_info_given",
+        "emotional_arc": "rollercoaster",
+        "n_messages": 7,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Aurora",
+          "mood": "frustrated",
+          "personality": [
+            "temper",
+            "fiery red hair"
+          ],
+          "backstory": "Locked out of her company's financial database due to an incorrect password and lack of two-factor authentication, impacting her ability to meet a looming deadline for quarterly reports.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Maya",
+          "mood": "frustrated",
+          "personality": [
+            "patient",
+            "empathetic"
+          ],
+          "backstory": "Has been working with the same company for five years, feeling trapped by strict scripts and automated systems that prevent her from providing personalized assistance.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "I can't believe this! You guys should have my account ready by now!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I understand you're frustrated, but let's check the status together.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "Just get it sorted or I'll cancel my entire booking!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "I'm here to help. Can you give me your full name and booking ID?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "Fine, fine! It's Jane Smith, booking 1234567890!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "One moment while I look up that information.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 7,
+          "content": "Ugh, don't bother! Just tell them to delete my account now!",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 27.83,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": []
+      }
+    },
+    {
+      "id": "edf1c2df-7f1f-40f4-8d3c-c0069192fcdc",
+      "seed": 201000,
+      "params": {
+        "seed": 201000,
+        "complexity": "complex",
+        "sector": "retail",
+        "topic": "account_access",
+        "outcome": "resolved_neutral",
+        "style": "casual",
+        "client_archetype": "tech_confused",
+        "agent_archetype": "veteran_tired",
+        "twist": "agent_breaks_protocol",
+        "conflict_type": "company_fault",
+        "emotional_arc": "rollercoaster",
+        "n_messages": 6,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Jamie",
+          "mood": "frustrated",
+          "personality": [
+            "confused",
+            "determined"
+          ],
+          "backstory": "Needs to access online banking to pay rent on time after facing account issues.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Karen",
+          "mood": "weary",
+          "personality": [
+            "no-nonsense",
+            "patient"
+          ],
+          "backstory": "years of dealing with customer complaints and technical issues",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "i can't log in! it's been 2 days and still not working!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "Did you check your email for the reset link?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "my email? why would it snd to my email?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "Forgot password—common issue, sorry.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "this is so frustrating! i just want to shop!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "We'll get you in. Give me a sec.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 27.09,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "lowercase:turn1",
+          "typo_missing_letter:turn3",
+          "lowercase:turn3",
+          "lowercase:turn5"
+        ]
+      }
+    },
+    {
+      "id": "0d972d75-7725-4b0e-bd0e-4b8c022fcaf1",
+      "seed": 201100,
+      "params": {
+        "seed": 201100,
+        "complexity": "complex",
+        "sector": "telco",
+        "topic": "account_access",
+        "outcome": "unresolved_passive",
+        "style": "passive_aggressive",
+        "client_archetype": "tech_confused",
+        "agent_archetype": "burned_out",
+        "twist": "none",
+        "conflict_type": "company_fault",
+        "emotional_arc": "rollercoaster",
+        "n_messages": 7,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Bernice",
+          "mood": "frazzled",
+          "personality": [
+            "anxious",
+            "passive-aggressive"
+          ],
+          "backstory": "Shaken by a recent identity theft from her sister's hacking incident, she struggles with online security.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Jamie",
+          "mood": "tired",
+          "personality": [
+            "detached",
+            "despairing"
+          ],
+          "backstory": "A worn-out customer service representative whose usual warm smile has turned into a tired, rehearsed one due to the monotony of her job.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "Why can't I log in? It's like the site hates me.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "Login issues happen to everyone sometimes.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "Not funny, this is my data!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "Try clearing cache or restarting device.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "Ugh, why do you always say that?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "Works for most.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 7,
+          "content": "Fine, thanks.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 26.46,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": []
+      }
+    },
+    {
+      "id": "6a4f1a67-ee9e-4273-ba46-e976b8eef5b8",
+      "seed": 201200,
+      "params": {
+        "seed": 201200,
+        "complexity": "simple",
+        "sector": "travel",
+        "topic": "billing_question",
+        "outcome": "info_only",
+        "style": "casual",
+        "client_archetype": "grieving",
+        "agent_archetype": "hands_tied",
+        "twist": "ragequit",
+        "conflict_type": "billing_error",
+        "emotional_arc": "stable",
+        "n_messages": 4,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Jamie",
+          "mood": "frazzled",
+          "personality": [
+            "frustrated",
+            "overwhelmed"
+          ],
+          "backstory": "Still reeling from the sudden loss of their partner just six months ago.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Maya",
+          "mood": "frustrated",
+          "personality": [
+            "creative",
+            "enthusiastic"
+          ],
+          "backstory": "Struggles with rigid company protocols and outdated software while desiring to provide personalized service.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "I can't believe this! Why isn't my refund showing up?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I understand you're stressed, but let's check together.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "This is ridiculous! It's been weeks!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "Sorry, policy limits our access. Need manager approval.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 25.48,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": []
+      }
+    },
+    {
+      "id": "73ee8720-cbaf-42d3-9e3c-6bbe0483770e",
+      "seed": 201300,
+      "params": {
+        "seed": 201300,
+        "complexity": "simple",
+        "sector": "travel",
+        "topic": "billing_question",
+        "outcome": "resolved_neutral",
+        "style": "formal",
+        "client_archetype": "calling_bluff",
+        "agent_archetype": "by_the_book",
+        "twist": "none",
+        "conflict_type": "account_access",
+        "emotional_arc": "deescalates",
+        "n_messages": 2,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Kathryn",
+          "mood": "agitation",
+          "personality": [
+            "seasoned",
+            "executive",
+            "stern"
+          ],
+          "backstory": "Her mood is one of stern disapproval, as she is deeply invested in ensuring that every dollar is accounted for and sees this issue as an affront to her business's financial integrity. This billing question matters personally to Ms. Langley because it strikes at the heart of her company's reputation for fiscal prudence and could potentially damage its standing among investors if not resolved promptly.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Rory",
+          "mood": "focused",
+          "personality": [
+            "intensely focused",
+            "strictly adherent to procedure"
+          ],
+          "backstory": "Dealing with numerous customer complaints and feeling the monotony of resolving them.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "Your billing practices are unacceptable. This will not stand.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I understand your concerns, and we'll correct this promptly.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 25.97,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": []
+      }
+    },
+    {
+      "id": "05709a2d-980f-4a27-b5ea-9920052725ca",
+      "seed": 201400,
+      "params": {
+        "seed": 201400,
+        "complexity": "simple",
+        "sector": "travel",
+        "topic": "billing_question",
+        "outcome": "conflict",
+        "style": "aggressive",
+        "client_archetype": "wrong_department",
+        "agent_archetype": "stressed_multitask",
+        "twist": "none",
+        "conflict_type": "account_access",
+        "emotional_arc": "rollercoaster",
+        "n_messages": 3,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Rochelle",
+          "mood": "frustrated",
+          "personality": [
+            "no-nonsense",
+            "business owner"
+          ],
+          "backstory": "Tense and frustrated, counting on resolving unexpected charges eating into her profit margins.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Maya",
+          "mood": "frazzled",
+          "personality": [
+            "concentrated",
+            "multi-tasking"
+          ],
+          "backstory": "Trying to resolve complex issues with difficult clients while managing multiple chats before a shift deadline.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "okay, why are you even here for this? You should be dealing with IT issues!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I'm sorry, we're handling billing inquiries now.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 3,
+          "content": "Let's focus on your specific issue, okay?",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 25.06,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "filler_prepend:turn1"
+        ]
+      }
+    },
+    {
+      "id": "3a9d5b4b-edd4-4381-b38d-c7ba7a68846e",
+      "seed": 201500,
+      "params": {
+        "seed": 201500,
+        "complexity": "complex",
+        "sector": "telco",
+        "topic": "billing_question",
+        "outcome": "resolved_quick",
+        "style": "passive_aggressive",
+        "client_archetype": "karen",
+        "agent_archetype": "newbie_overwhelmed",
+        "twist": "none",
+        "conflict_type": "client_own_fault",
+        "emotional_arc": "deescalates",
+        "n_messages": 7,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Karen",
+          "mood": "indignant",
+          "personality": [
+            "scowling",
+            "self-important",
+            "passive-aggressive"
+          ],
+          "backstory": "Always ready to challenge perceived injustices, no matter how minor.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Maya",
+          "mood": "overwhelmed",
+          "personality": [
+            "rookie",
+            "concerned"
+          ],
+          "backstory": "Trying to handle multiple chat windows and tricky questions.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "Why did my bill go up suddenly? It's unfair!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "That, can you share your account number?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "Ugh, you should know who I am.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "I understand, let me check this for you.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "You better have a good explanation.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "Your bill was adjusted due to new services. Let's review it together.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 7,
+          "content": "Uh, it’s fixed now. Thank you for bringing this to our attention!",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 25.83,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "hesitation_prepend:turn7"
+        ]
+      }
+    },
+    {
+      "id": "c5cf902d-9225-4051-af7e-a7196cf940f8",
+      "seed": 201600,
+      "params": {
+        "seed": 201600,
+        "complexity": "complex",
+        "sector": "insurance",
+        "topic": "refund_request",
+        "outcome": "unresolved_passive",
+        "style": "passive_aggressive",
+        "client_archetype": "young_professional",
+        "agent_archetype": "burned_out",
+        "twist": "none",
+        "conflict_type": "technical_issue",
+        "emotional_arc": "rollercoaster",
+        "n_messages": 5,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Alex",
+          "mood": "irritated",
+          "personality": [
+            "professional",
+            "passive-aggressive"
+          ],
+          "backstory": "Has had to deal with a faulty product and is pressed for time due to deadlines.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Jamie",
+          "mood": "dull",
+          "personality": [
+            "seasoned",
+            "empathetic"
+          ],
+          "backstory": "Has been dealing with repetitive complaints and unfulfilling conversations for a long time.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "Can you speed this up? I need my refund by tomorrow.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "We’re processing as fast as possible.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "It’s been a week already.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "I understand your concern, but we’re handling it efficiently.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "um, fine. Good day.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 25.37,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "filler_prepend:turn5"
+        ]
+      }
+    },
+    {
+      "id": "bac42742-8fda-4b8b-b30f-294e368cbec6",
+      "seed": 201700,
+      "params": {
+        "seed": 201700,
+        "complexity": "simple",
+        "sector": "insurance",
+        "topic": "refund_request",
+        "outcome": "resolved_quick",
+        "style": "casual",
+        "client_archetype": "tech_confused",
+        "agent_archetype": "by_the_book",
+        "twist": "none",
+        "conflict_type": "delivery_problem",
+        "emotional_arc": "stable",
+        "n_messages": 3,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Jamie",
+          "mood": "frustrated",
+          "personality": [
+            "laid-back",
+            "lack of technical savviness"
+          ],
+          "backstory": "Has been trying to get a refund for weeks but hasn't received her money back, affecting her finances.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Karen",
+          "mood": "overwhelmed",
+          "personality": [
+            "meticulous",
+            "detail-oriented"
+          ],
+          "backstory": "Currently, she's feeling particularly overwhelmed by the high volume of incoming calls, which has put her on edge and left her counting down the minutes until her scheduled break time.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "I need my money back for this policy!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "Can you tell me more about the issue?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 3,
+          "content": "Let's check your coverage details together.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 24.33,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": []
+      }
+    },
+    {
+      "id": "14e8c560-89ec-4384-a2ae-ac953aabe513",
+      "seed": 201800,
+      "params": {
+        "seed": 201800,
+        "complexity": "complex",
+        "sector": "retail",
+        "topic": "refund_request",
+        "outcome": "conflict",
+        "style": "aggressive",
+        "client_archetype": "wrong_department",
+        "agent_archetype": "newbie_overwhelmed",
+        "twist": "agent_makes_mistake",
+        "conflict_type": "technical_issue",
+        "emotional_arc": "escalates",
+        "n_messages": 8,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Regina",
+          "mood": "frustrated",
+          "personality": [
+            "no-nonsense",
+            "short-tempered"
+          ],
+          "backstory": "Wrongly routed to technical support for a refund request, spent hours on hold and spoken to three different representatives.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Jamie",
+          "mood": "frantic",
+          "personality": [
+            "rookie",
+            "fragile"
+          ],
+          "backstory": "Struggling to handle the pressure of customer support.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "where's the tech support? this is the wrong team!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "Uh, i'm sorry, we handle refunds here.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "Whatever. Why isn't my refund processed?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "Let me check that for you.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "Just look it up already! It’s been weeks!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "I’m double-checking now.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 7,
+          "content": "This is ridiculous! I want a manager!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 8,
+          "content": "One moment — i’ll transfer you right away.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 25.73,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "lowercase:turn1",
+          "hesitation_prepend:turn2",
+          "hesitation_prepend:turn8"
+        ]
+      }
+    },
+    {
+      "id": "ff7de6df-565e-4714-913b-931cfcf6113e",
+      "seed": 201900,
+      "params": {
+        "seed": 201900,
+        "complexity": "complex",
+        "sector": "hospitality",
+        "topic": "refund_request",
+        "outcome": "resolved_neutral",
+        "style": "formal",
+        "client_archetype": "angry_veteran",
+        "agent_archetype": "eager_helper",
+        "twist": "none",
+        "conflict_type": "technical_issue",
+        "emotional_arc": "deescalates",
+        "n_messages": 7,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Harrison",
+          "mood": "frustrated",
+          "personality": [
+            "proud",
+            "disappointed"
+          ],
+          "backstory": "He relied on the company for reliable products but now feels let down by their subpar service, seeing his refund request as a matter of principle.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Maya",
+          "mood": "energetic",
+          "personality": [
+            "bright-eyed",
+            "dedicated"
+          ],
+          "backstory": "Has been working non-stop since morning without a break, eager to resolve every issue that comes her way.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "I expected better from your hospitality, but my experience was terrible.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I'm so sorry to hear that, [Client's Name]. Can you tell me more?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "It’s disheartening after all these years; our reservation wasn’t honored.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "Oh no, that shouldn't happen! Let me look into this right away.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "um, just get it sorted quickly—it’s my last trip here.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 6,
+          "content": "Absolutely, [Client's Name]. I’ll expedite the refund and add a credit for future visits.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 7,
+          "content": "We value your business and will make things right.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 26.16,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "filler_prepend:turn5"
+        ]
+      }
+    }
+  ]
+}

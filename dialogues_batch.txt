@@ -1,0 +1,228 @@
+Generated: 2026-02-28T23:17:25.647486
+Count: 20
+============================================================
+
+--- Dialogue (seed=200000) ---
+Topic: payment_issue
+Outcome: resolved_quick
+Style: formal
+
+Client: I need this fixed immediately or I'll cancel my account.
+Agent: Um, can you tell me more about the issue?
+Client: The bill is incorrect; it’s OVERCHARGED by $50!
+Agent: Uh, i see. Let's get that adjusted right away.
+
+--- Dialogue (seed=200100) ---
+Topic: payment_issue
+Outcome: unresolved_passive
+Style: casual
+
+Client: uh, payment got deducted twice last week. When's my refund?
+Agent: Check your account; it should process today.
+Client: it’s already been a week! why isn't it there yet?
+Agent: I'll expedite the process for you right now.
+Client: thanks, but it better be quick.
+Agent: Your refund will be processed by EOD today.
+Client: fine. just make sure it happens.
+Client: alright, thanks.
+
+--- Dialogue (seed=200200) ---
+Topic: payment_issue
+Outcome: conflict
+Style: aggressive
+
+Client: This is ridiculous! My kid's room wasn't cleaned today, and you're telling me to pay extra?
+Agent: Let’s see the details.
+Client: frustrqtion is an understatememt! you’re npt jelping!
+Agent: multitasking here, i’m sorry if there was a mix-up. Can you provide your order number?
+
+--- Dialogue (seed=200300) ---
+Topic: payment_issue
+Outcome: resolved_neutral
+Style: passive_aggressive
+
+Client: Why is my payment still pending? You're just making things harder.
+Agent: I understand you’re frustrated, but let’s check this together quickly.
+Client: this isn’t quick enough! it should be fixed by now!
+Agent: I see why you’d feel that way. Let me verify right now.
+Client: Just hurry up, please.
+Agent: Hold on one sec more; your payment is processing.
+Client: Typical. Takes forever.
+Agent: I’ll expedite it for you personally. Trust me, we’ve got this sorted.
+
+--- Dialogue (seed=200400) ---
+Topic: technical_error
+Outcome: resolved_neutral
+Style: casual
+
+Client: My account just froze, and I can't log in! When will you fix this?
+Agent: We're working on it. Just a minute more.
+Client: hgh, why is nobody taking responsibilkty?!
+Agent: I'm sorry for the inconvenience. Let's get this sorted now.
+Client: Fine. But if it takes much longer, I’m done with you guys.
+Agent: [brb 1 sec] got it. We'll resolve this quickly. Thanks for your patience.
+
+--- Dialogue (seed=200500) ---
+Topic: technical_error
+Outcome: conflict
+Style: aggressive
+
+Client: My child's account got locked out, and it won't let us log in! This is ridiculous
+Agent: That, ma'am. Let's get this sorted right away.
+Client: it's been an hour, and nothing! my child is upset!
+Agent: This must be. Let me check the status again quickly.
+Agent: We've identified the issue, and it was our fault. We'll unlock the account now.
+
+--- Dialogue (seed=200600) ---
+Topic: technical_error
+Outcome: unresolved_ragequit
+Style: formal
+
+Client: I've tried everything, but nothing works! Why can't you fix this technical glitch?
+Client: This is unacceptable! You guys are no good anymore!
+
+--- Dialogue (seed=200700) ---
+Topic: technical_error
+Outcome: resolved_quick
+Style: casual
+
+Client: this policy stuff is stressing me out way too much right now
+Agent: I get it, let's fix this quick.
+
+--- Dialogue (seed=200800) ---
+Topic: account_access
+Outcome: resolved_quick
+Style: formal
+
+Client: I need to speak with someone who can actually help me, not just run circles around my issue.
+Agent: One moment — oh, I see. Let’s try to sort this out quickly for you.
+Client: It's about my insurance claim; it’s been stalled for weeks.
+Agent: Can you give me some details?
+Client: My policy number is 1234567890, and the claim WAS filed two months ago.
+Agent: Thanks. I’ll look into that right away.
+Agent: We found an issue with your case. It might require legal review. Let’s proceed carefully.
+
+--- Dialogue (seed=200900) ---
+Topic: account_access
+Outcome: unresolved_ragequit
+Style: aggressive
+
+Client: I can't believe this! You guys should have my account ready by now!
+Agent: I understand you're frustrated, but let's check the status together.
+Client: Just get it sorted or I'll cancel my entire booking!
+Agent: I'm here to help. Can you give me your full name and booking ID?
+Client: Fine, fine! It's Jane Smith, booking 1234567890!
+Agent: One moment while I look up that information.
+Client: Ugh, don't bother! Just tell them to delete my account now!
+
+--- Dialogue (seed=201000) ---
+Topic: account_access
+Outcome: resolved_neutral
+Style: casual
+
+Client: i can't log in! it's been 2 days and still not working!
+Agent: Did you check your email for the reset link?
+Client: my email? why would it snd to my email?
+Agent: Forgot password—common issue, sorry.
+Client: this is so frustrating! i just want to shop!
+Agent: We'll get you in. Give me a sec.
+
+--- Dialogue (seed=201100) ---
+Topic: account_access
+Outcome: unresolved_passive
+Style: passive_aggressive
+
+Client: Why can't I log in? It's like the site hates me.
+Agent: Login issues happen to everyone sometimes.
+Client: Not funny, this is my data!
+Agent: Try clearing cache or restarting device.
+Client: Ugh, why do you always say that?
+Agent: Works for most.
+Client: Fine, thanks.
+
+--- Dialogue (seed=201200) ---
+Topic: billing_question
+Outcome: info_only
+Style: casual
+
+Client: I can't believe this! Why isn't my refund showing up?
+Agent: I understand you're stressed, but let's check together.
+Client: This is ridiculous! It's been weeks!
+Agent: Sorry, policy limits our access. Need manager approval.
+
+--- Dialogue (seed=201300) ---
+Topic: billing_question
+Outcome: resolved_neutral
+Style: formal
+
+Client: Your billing practices are unacceptable. This will not stand.
+Agent: I understand your concerns, and we'll correct this promptly.
+
+--- Dialogue (seed=201400) ---
+Topic: billing_question
+Outcome: conflict
+Style: aggressive
+
+Client: okay, why are you even here for this? You should be dealing with IT issues!
+Agent: I'm sorry, we're handling billing inquiries now.
+Agent: Let's focus on your specific issue, okay?
+
+--- Dialogue (seed=201500) ---
+Topic: billing_question
+Outcome: resolved_quick
+Style: passive_aggressive
+
+Client: Why did my bill go up suddenly? It's unfair!
+Agent: That, can you share your account number?
+Client: Ugh, you should know who I am.
+Agent: I understand, let me check this for you.
+Client: You better have a good explanation.
+Agent: Your bill was adjusted due to new services. Let's review it together.
+Agent: Uh, it’s fixed now. Thank you for bringing this to our attention!
+
+--- Dialogue (seed=201600) ---
+Topic: refund_request
+Outcome: unresolved_passive
+Style: passive_aggressive
+
+Client: Can you speed this up? I need my refund by tomorrow.
+Agent: We’re processing as fast as possible.
+Client: It’s been a week already.
+Agent: I understand your concern, but we’re handling it efficiently.
+Client: um, fine. Good day.
+
+--- Dialogue (seed=201700) ---
+Topic: refund_request
+Outcome: resolved_quick
+Style: casual
+
+Client: I need my money back for this policy!
+Agent: Can you tell me more about the issue?
+Agent: Let's check your coverage details together.
+
+--- Dialogue (seed=201800) ---
+Topic: refund_request
+Outcome: conflict
+Style: aggressive
+
+Client: where's the tech support? this is the wrong team!
+Agent: Uh, i'm sorry, we handle refunds here.
+Client: Whatever. Why isn't my refund processed?
+Agent: Let me check that for you.
+Client: Just look it up already! It’s been weeks!
+Agent: I’m double-checking now.
+Client: This is ridiculous! I want a manager!
+Agent: One moment — i’ll transfer you right away.
+
+--- Dialogue (seed=201900) ---
+Topic: refund_request
+Outcome: resolved_neutral
+Style: formal
+
+Client: I expected better from your hospitality, but my experience was terrible.
+Agent: I'm so sorry to hear that, [Client's Name]. Can you tell me more?
+Client: It’s disheartening after all these years; our reservation wasn’t honored.
+Agent: Oh no, that shouldn't happen! Let me look into this right away.
+Client: um, just get it sorted quickly—it’s my last trip here.
+Agent: Absolutely, [Client's Name]. I’ll expedite the refund and add a credit for future visits.
+Agent: We value your business and will make things right.

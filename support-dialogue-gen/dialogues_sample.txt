@@ -1,0 +1,28 @@
+Generated: 2026-02-28T22:50:11.614578
+Count: 3
+============================================================
+
+--- Dialogue (seed=888888) ---
+Topic: price dispute
+Outcome: resolved_quick
+
+Client: this is ridiculous! my claim was denied abd i jeed this fixed asap, please!
+Agent: I understand how stressful this is. Let's get it sorted right away.
+Agent: We'll expedite your claim and review the decision together.
+
+--- Dialogue (seed=888988) ---
+Topic: contract termination fee
+Outcome: info_only
+
+Client: okay, why do I have to pay this ridiculous fee? This is outrageous!
+Agent: I'm sorry, can you check your department?
+Agent: Can I help with something else now?
+
+--- Dialogue (seed=889089) ---
+Topic: contract termination fee
+Outcome: resolved_neutral
+
+Client: man, i don't wanna pay this extra fee! it's totally unfair and no one even mentioned it!
+Agent: Hey there! Can I help with something? You sound pretty upset about that extra fee. Just so you know, we definitely understand your frustration. So, if you could give us your contract number, we'd be glad to take a closer look at it and see what we can do to help. Thanks for reaching out!
+Client: well, man, i totally don't get why we need this contract—it sounds super confusing! could you really break down the fees for me?
+Agent: Hey there! If you're curious about the fees, have a look at section 5.1. It sets out exactly what we charge for your particular request. Remember, clarity is key - let me know if you need more info!

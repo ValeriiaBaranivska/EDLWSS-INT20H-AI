@@ -1,0 +1,249 @@
+{
+  "generated_at": "2026-02-28T22:50:11.614964",
+  "count": 3,
+  "seeds": [
+    888888,
+    888988,
+    889089
+  ],
+  "dialogues": [
+    {
+      "id": "cb9b99be-2362-4422-b4dc-1f2a4c9525c8",
+      "seed": 888888,
+      "params": {
+        "complexity": "simple",
+        "sector": "insurance",
+        "topic": "price dispute",
+        "outcome": "resolved_quick",
+        "style": "passive_aggressive",
+        "client_archetype": "grieving",
+        "agent_archetype": "eager_helper",
+        "twist": "none",
+        "n_messages": 3
+      },
+      "characters": {
+        "client": {
+          "name": "Customer",
+          "mood": "neutral",
+          "personality": [
+            "casual"
+          ],
+          "backstory": ""
+        },
+        "agent": {
+          "name": "Agent",
+          "mood": "neutral",
+          "personality": [
+            "professional"
+          ]
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "this is ridiculous! my claim was denied abd i jeed this fixed asap, please!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I understand how stressful this is. Let's get it sorted right away.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 3,
+          "content": "We'll expedite your claim and review the decision together.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 5.03,
+        "model_used": "llama3.1:8b",
+        "stages_run": [
+          "0",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "1",
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "keyboard_typo:turn1",
+          "lowercase:turn1"
+        ]
+      }
+    },
+    {
+      "id": "fd9b645f-7c8e-4719-9fd2-f01b0caedfae",
+      "seed": 888988,
+      "params": {
+        "complexity": "simple",
+        "sector": "hospitality",
+        "topic": "contract termination fee",
+        "outcome": "info_only",
+        "style": "aggressive",
+        "client_archetype": "grieving",
+        "agent_archetype": "burned_out",
+        "twist": "wrong_department_entirely",
+        "n_messages": 3
+      },
+      "characters": {
+        "client": {
+          "name": "Customer",
+          "mood": "neutral",
+          "personality": [
+            "casual"
+          ],
+          "backstory": ""
+        },
+        "agent": {
+          "name": "Agent",
+          "mood": "neutral",
+          "personality": [
+            "professional"
+          ]
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "okay, why do I have to pay this ridiculous fee? This is outrageous!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I'm sorry, can you check your department?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 3,
+          "content": "Can I help with something else now?",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 2.84,
+        "model_used": "dolphin-mistral",
+        "stages_run": [
+          "0",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "1",
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "keyboard_typo:turn1",
+          "filler_prepend:turn1"
+        ]
+      }
+    },
+    {
+      "id": "6a62e127-4089-4608-92b2-8bc7f4bd4f61",
+      "seed": 889089,
+      "params": {
+        "complexity": "complex",
+        "sector": "travel",
+        "topic": "contract termination fee",
+        "outcome": "resolved_neutral",
+        "style": "passive_aggressive",
+        "client_archetype": "tech_confused",
+        "agent_archetype": "by_the_book",
+        "twist": "agent_breaks_protocol",
+        "n_messages": 5
+      },
+      "characters": {
+        "client": {
+          "name": "Diane",
+          "mood": "frustrated",
+          "personality": [
+            "anxious",
+            "passive-aggressive"
+          ],
+          "backstory": "Struggling to understand an 'early exit penalty' from her internet service provider, leaving her worried about financial strain."
+        },
+        "agent": {
+          "name": "Alex",
+          "mood": "tired",
+          "personality": [
+            "meticulous",
+            "thorough"
+          ]
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "man, i don't wanna pay this extra fee! it's totally unfair and no one even mentioned it!",
+          "emotion": "angry",
+          "intensity": 4
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "Hey there! Can I help with something? You sound pretty upset about that extra fee. Just so you know, we definitely understand your frustration. So, if you could give us your contract number, we'd be glad to take a closer look at it and see what we can do to help. Thanks for reaching out!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "well, man, i totally don't get why we need this contract—it sounds super confusing! could you really break down the fees for me?",
+          "emotion": "confused and anxious",
+          "intensity": 5
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "Hey there! If you're curious about the fees, have a look at section 5.1. It sets out exactly what we charge for your particular request. Remember, clarity is key - let me know if you need more info!",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 82.94,
+        "model_used": "dolphin-mistral",
+        "stages_run": [
+          "0",
+          "1",
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B",
+          "6"
+        ],
+        "stages_skipped": [
+          "5"
+        ],
+        "dirt_applied": [
+          "lowercase:turn1",
+          "lowercase:turn3",
+          "filler_prepend:turn3"
+        ]
+      }
+    }
+  ]
+}

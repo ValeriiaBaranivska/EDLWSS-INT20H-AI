@@ -1,0 +1,612 @@
+{
+  "model": "glm-4.7",
+  "count": 10,
+  "dialogues": [
+    {
+      "seed": 100000,
+      "topic": "payment_issue",
+      "outcome": "resolved_quick",
+      "style": "formal",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "Basically, i just found out my payment was declined. This isn't what I expected from your service!",
+          "emotion": "frustrated",
+          "intensity": 0.6
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "That, let me check this for you right away.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "deescalates",
+        "resolution_quality": "good",
+        "agent_empathy": 0.6,
+        "agent_effectiveness": 0.9,
+        "client_satisfaction_estimate": 0.8,
+        "conflict_level": "low",
+        "key_moments": [
+          "Client reports declined payment",
+          "Agent offers immediate assistance"
+        ],
+        "summary": "The client reported a declined payment and expressed dissatisfaction with the service. The agent immediately offered to investigate the issue, leading to a quick resolution."
+      }
+    },
+    {
+      "seed": 100100,
+      "topic": "payment_issue",
+      "outcome": "unresolved_passive",
+      "style": "casual",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "Why is my payment stuck? You're just stalling!",
+          "emotion": "angry",
+          "intensity": 0.8
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "I’m sorry for the delay. Let me check right away.",
+          "emotion": "apologetic",
+          "intensity": 0.5
+        },
+        {
+          "turn": 3,
+          "role": "client",
+          "content": "Ugh, this is frustrating! It feels like a scam.",
+          "emotion": "frustrated",
+          "intensity": 0.7
+        },
+        {
+          "turn": 4,
+          "role": "agent",
+          "content": "I understand how you feel. I’ll speed up the process.",
+          "emotion": "neutral",
+          "intensity": 0.3
+        },
+        {
+          "turn": 5,
+          "role": "client",
+          "content": "Thanks... This better work this time.",
+          "emotion": "hopeful",
+          "intensity": 0.4
+        },
+        {
+          "turn": 6,
+          "role": "client",
+          "content": "Alright, thanks FOR trying.",
+          "emotion": "grateful",
+          "intensity": 0.3
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "deescalates",
+        "resolution_quality": "mediocre",
+        "agent_empathy": 0.8,
+        "agent_effectiveness": 0.4,
+        "client_satisfaction_estimate": 0.5,
+        "conflict_level": "medium",
+        "key_moments": [
+          "Client accuses agent of stalling",
+          "Client expresses fear of a scam",
+          "Agent validates client's feelings",
+          "Client accepts agent's effort despite unresolved issue"
+        ],
+        "summary": "The client begins the interaction angry and suspicious about a stuck payment, accusing the agent of stalling and potential scamming. The agent successfully deescalates the situation by apologizing and validating the client's frustration, though the actual payment issue remains unresolved. The conversation ends on a passive note with the client expressing gratitude for the agent's attempt to help."
+      }
+    },
+    {
+      "seed": 100200,
+      "topic": "technical_error",
+      "outcome": "resolved_neutral",
+      "style": "casual",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "This policy isn't working! I've been trying all day and it's not helping.",
+          "emotion": "frustrated",
+          "intensity": 0.8
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "That, let's sort this out quickly.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 3,
+          "role": "client",
+          "content": "it's not! why can't you just fix it?",
+          "emotion": "demanding",
+          "intensity": 0.9
+        },
+        {
+          "turn": 4,
+          "role": "agent",
+          "content": "Bear with me — my mistake earlier caused the delay. Let me check again now.",
+          "emotion": "apologetic",
+          "intensity": 0.5
+        },
+        {
+          "turn": 5,
+          "role": "agent",
+          "content": "The issue should be resolved. Please try it again.",
+          "emotion": "neutral",
+          "intensity": 0.2
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "deescalates",
+        "resolution_quality": "mediocre",
+        "agent_empathy": 0.6,
+        "agent_effectiveness": 0.8,
+        "client_satisfaction_estimate": 0.4,
+        "conflict_level": "medium",
+        "key_moments": [
+          "Client expresses frustration over policy failure",
+          "Agent admits to previous mistake",
+          "Agent states issue is resolved"
+        ],
+        "summary": "The client is frustrated that a policy is not working after trying all day. The agent apologizes for a previous delay, admits to a mistake, and informs the client that the issue should now be resolved."
+      }
+    },
+    {
+      "seed": 100300,
+      "topic": "technical_error",
+      "outcome": "conflict",
+      "style": "aggressive",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "yeah, my flight wws canceled again! how many times do i have to complain before anyone listens?",
+          "emotion": "angry",
+          "intensity": 0.8
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "Bear with me — about the delay, sir.",
+          "emotion": "neutral",
+          "intensity": 0.2
+        },
+        {
+          "turn": 3,
+          "role": "client",
+          "content": "This is unacceptable. You owe me a voucher or something!",
+          "emotion": "demanding",
+          "intensity": 0.9
+        },
+        {
+          "turn": 4,
+          "role": "agent",
+          "content": "We can offer you a voucher for your inconvenience.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 5,
+          "role": "agent",
+          "content": "It might take some time due to system updates. We're working on it.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "escalates",
+        "resolution_quality": "mediocre",
+        "agent_empathy": 0.3,
+        "agent_effectiveness": 0.6,
+        "client_satisfaction_estimate": 0.3,
+        "conflict_level": "high",
+        "key_moments": [
+          "Client complains about repeated cancellation",
+          "Client demands compensation",
+          "Agent offers voucher",
+          "Agent cites system delay"
+        ],
+        "summary": "The client expresses anger over a repeated flight cancellation and aggressively demands a voucher. The agent complies with the request but introduces a new point of friction by mentioning system delays, resulting in a mediocre resolution."
+      }
+    },
+    {
+      "seed": 100400,
+      "topic": "account_access",
+      "outcome": "resolved_quick",
+      "style": "formal",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "Honestly, i urgently need to RESET my login password right now.",
+          "emotion": "demanding",
+          "intensity": 0.8
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "Your security is important. Can you verify your identity?",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 3,
+          "role": "client",
+          "content": "Yes, it's me! Why so slow?",
+          "emotion": "frustrated",
+          "intensity": 0.6
+        },
+        {
+          "turn": 4,
+          "role": "agent",
+          "content": "I’m processing quickly. Please provide your account number.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 5,
+          "role": "client",
+          "content": "ugh, why can't i just do this myself?",
+          "emotion": "frustrated",
+          "intensity": 0.5
+        },
+        {
+          "turn": 6,
+          "role": "agent",
+          "content": "Verifying now; password reset will follow shortly.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "rollercoaster",
+        "resolution_quality": "good",
+        "agent_empathy": 0.3,
+        "agent_effectiveness": 0.9,
+        "client_satisfaction_estimate": 0.6,
+        "conflict_level": "low",
+        "key_moments": [
+          "Client demands urgent reset",
+          "Client complains about speed",
+          "Agent initiates reset"
+        ],
+        "summary": "The client urgently requests a password reset and expresses frustration with the verification process. The agent maintains a professional demeanor, verifies the identity, and successfully initiates the reset."
+      }
+    },
+    {
+      "seed": 100500,
+      "topic": "account_access",
+      "outcome": "unresolved_ragequit",
+      "style": "aggressive",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "um, why can't I log in? It's been 2 days",
+          "emotion": "frustrated",
+          "intensity": 0.4
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "You're having trouble.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 3,
+          "role": "client",
+          "content": "um, this is ridicullus! my doctor nerds my info now",
+          "emotion": "angry",
+          "intensity": 0.8
+        },
+        {
+          "turn": 4,
+          "role": "agent",
+          "content": "Let me check your account status quickly.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 5,
+          "role": "client",
+          "content": "Just fix it already!",
+          "emotion": "demanding",
+          "intensity": 0.7
+        },
+        {
+          "turn": 6,
+          "role": "agent",
+          "content": "I'll get this resolved as fast as possible.",
+          "emotion": "neutral",
+          "intensity": 0.2
+        },
+        {
+          "turn": 7,
+          "role": "client",
+          "content": "uh, fine, whatever.",
+          "emotion": "resigned",
+          "intensity": 0.5
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "rollercoaster",
+        "resolution_quality": "poor",
+        "agent_empathy": 0.2,
+        "agent_effectiveness": 0.1,
+        "client_satisfaction_estimate": 0.1,
+        "conflict_level": "high",
+        "key_moments": [
+          "Client mentions urgent medical need",
+          "Client demands immediate fix",
+          "Client gives up in resignation"
+        ],
+        "summary": "The client expresses frustration over a two-day login outage that is blocking access to medical information. The agent provides robotic, unhelpful responses, causing the client's anger to spike before they ultimately give up and leave the conversation unresolved."
+      }
+    },
+    {
+      "seed": 100600,
+      "topic": "billing_question",
+      "outcome": "info_only",
+      "style": "casual",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "um, why hasn't my latest bill arrived yet? It's been two eeeks!",
+          "emotion": "frustrated",
+          "intensity": 0.6
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "I understand you're busy, but let me check on that for you.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 3,
+          "role": "client",
+          "content": "This is urgent! My payment plan depends on it",
+          "emotion": "anxious",
+          "intensity": 0.8
+        },
+        {
+          "turn": 4,
+          "role": "agent",
+          "content": "I'll expedite the process right away.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 5,
+          "role": "agent",
+          "content": "Your bill should arrive within 24 hours. Is there anything else?",
+          "emotion": "neutral",
+          "intensity": 0.1
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "deescalates",
+        "resolution_quality": "good",
+        "agent_empathy": 0.6,
+        "agent_effectiveness": 0.8,
+        "client_satisfaction_estimate": 0.7,
+        "conflict_level": "low",
+        "key_moments": [
+          "Client expresses urgency about payment plan",
+          "Agent promises expedited delivery"
+        ],
+        "summary": "The client inquired about a missing bill, expressing urgency due to a payment plan. The agent checked the status and promised to expedite the bill's arrival within 24 hours."
+      }
+    },
+    {
+      "seed": 100700,
+      "topic": "billing_question",
+      "outcome": "resolved_neutral",
+      "style": "formal",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "i insist my bill was incorrectly calculated this month, yet i received a notice for an overpayment.",
+          "emotion": "demanding",
+          "intensity": 0.6
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "Can you provide your account number? Let's check together.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 3,
+          "role": "client",
+          "content": "It’s 123456789. Why do I have to prove something that clearly is wrong?",
+          "emotion": "frustrated",
+          "intensity": 0.7
+        },
+        {
+          "turn": 4,
+          "role": "agent",
+          "content": "Sorry, got another chat — sorry for any confusion. I’ll verify right away.",
+          "emotion": "apologetic",
+          "intensity": 0.3
+        },
+        {
+          "turn": 5,
+          "role": "agent",
+          "content": "Bear with me — your bill was correct, but there was a refund error last month. We'll adjust it now.",
+          "emotion": "neutral",
+          "intensity": 0.2
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "deescalates",
+        "resolution_quality": "good",
+        "agent_empathy": 0.5,
+        "agent_effectiveness": 0.8,
+        "client_satisfaction_estimate": 0.6,
+        "conflict_level": "medium",
+        "key_moments": [
+          "Client insists on billing error",
+          "Client questions verification process",
+          "Agent identifies refund error"
+        ],
+        "summary": "The client insisted their bill was incorrect and expressed frustration about having to verify the account. The agent apologized for a delay, identified a refund error from the previous month, and immediately adjusted the account."
+      }
+    },
+    {
+      "seed": 100800,
+      "topic": "refund_request",
+      "outcome": "unresolved_passive",
+      "style": "passive_aggressive",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "I booked a room last year, it was perfect. This time it stunk.",
+          "emotion": "frustrated",
+          "intensity": 0.6
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "One moment — that, can you tell me more?",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 3,
+          "role": "client",
+          "content": "um, the cleanliness and service were awful. It's a shame FOR your supposedly top-tier hotel.",
+          "emotion": "sarcastic",
+          "intensity": 0.7
+        },
+        {
+          "turn": 4,
+          "role": "agent",
+          "content": "Let me check the details on this for you.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 5,
+          "role": "client",
+          "content": "Actually, just speed it up, please.",
+          "emotion": "demanding",
+          "intensity": 0.5
+        },
+        {
+          "turn": 6,
+          "role": "client",
+          "content": "alright, thanks.",
+          "emotion": "resigned",
+          "intensity": 0.2
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "rollercoaster",
+        "resolution_quality": "poor",
+        "agent_empathy": 0.2,
+        "agent_effectiveness": 0.2,
+        "client_satisfaction_estimate": 0.3,
+        "conflict_level": "medium",
+        "key_moments": [
+          "Client complains about cleanliness",
+          "Client uses sarcasm regarding hotel status",
+          "Client demands speed",
+          "Client abruptly ends chat"
+        ],
+        "summary": "The client complained about cleanliness and service, using sarcasm to criticize the hotel's reputation. The agent failed to address the emotional tone or specific issues effectively, leading the client to impatiently end the interaction without a resolution."
+      }
+    },
+    {
+      "seed": 100900,
+      "topic": "refund_request",
+      "outcome": "resolved_quick",
+      "style": "casual",
+      "messages": [
+        {
+          "turn": 1,
+          "role": "client",
+          "content": "Actually, well, this is BS! You guys used to have great service, now what?",
+          "emotion": "angry",
+          "intensity": 0.8
+        },
+        {
+          "turn": 2,
+          "role": "agent",
+          "content": "You're upset. Let's fix this.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 3,
+          "role": "client",
+          "content": "Fix it? How can you 'fix' it when you screw up so badly?",
+          "emotion": "demanding",
+          "intensity": 0.7
+        },
+        {
+          "turn": 4,
+          "role": "agent",
+          "content": "Let's look into this together.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        },
+        {
+          "turn": 5,
+          "role": "client",
+          "content": "Look, fine. But do something about the delay, okay?",
+          "emotion": "resigned",
+          "intensity": 0.4
+        },
+        {
+          "turn": 6,
+          "role": "agent",
+          "content": "Absolutely, we'll expedite it right away.",
+          "emotion": "neutral",
+          "intensity": 0.2
+        },
+        {
+          "turn": 7,
+          "role": "client",
+          "content": "So yeah, alright, THANKS. Sorry for yelling.",
+          "emotion": "grateful",
+          "intensity": 0.6
+        },
+        {
+          "turn": 8,
+          "role": "agent",
+          "content": "Sorry, got another chat — no problem. Glad to help.",
+          "emotion": "neutral",
+          "intensity": 0.1
+        }
+      ],
+      "dialogue": {
+        "emotional_arc": "deescalates",
+        "resolution_quality": "good",
+        "agent_empathy": 0.6,
+        "agent_effectiveness": 0.9,
+        "client_satisfaction_estimate": 0.8,
+        "conflict_level": "medium",
+        "key_moments": [
+          "Client expresses frustration with 'BS'",
+          "Agent offers to expedite",
+          "Client apologizes for yelling"
+        ],
+        "summary": "The client starts off angry about a service issue, expressing frustration with the company's decline. The agent quickly deescalates the situation by acknowledging the client's feelings and offering to expedite the refund, leading to a positive resolution where the client apologizes for their initial outburst."
+      }
+    }
+  ]
+}

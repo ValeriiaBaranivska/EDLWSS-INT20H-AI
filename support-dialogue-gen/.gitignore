@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+*.log
+debug_pipeline_out.txt
+output/debug_*
+output/preview/
+output/batch_*/
+output/self_eval_report.json

@@ -1,0 +1,187 @@
+{
+  "generated": "2026-02-28T23:49:20.428261",
+  "count": 2,
+  "dialogues": [
+    {
+      "id": "acc21a0f-a528-4875-a06e-24bbc52a9d8c",
+      "seed": 100000,
+      "params": {
+        "seed": 100000,
+        "complexity": "simple",
+        "sector": "banking",
+        "topic": "payment_issue",
+        "outcome": "resolved_quick",
+        "style": "formal",
+        "client_archetype": "wrong_department",
+        "agent_archetype": "newbie_overwhelmed",
+        "twist": "company_acknowledges_fault",
+        "conflict_type": "billing_error",
+        "emotional_arc": "deescalates",
+        "n_messages": 2,
+        "use_dolphin": false
+      },
+      "characters": {
+        "client": {
+          "name": "Rachel",
+          "mood": "frustrated",
+          "personality": [
+            "no-nonsense",
+            "patiently annoyed"
+          ],
+          "backstory": "Relies on a predictable income to manage her family's expenses, facing delays that could impact rent payments.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Lily",
+          "mood": "frazzled",
+          "personality": [
+            "bright-eyed",
+            "doubtful"
+          ],
+          "backstory": "A customer support specialist who has been on the job for only three weeks and is struggling with the constant stream of incoming tickets and frantic customers.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "I need to speak with someone who can help with my bank account issues, not this department.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "Oh, I see. Let's get your payment issue sorted then. Can you tell me more?",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 26.45,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": []
+      }
+    },
+    {
+      "id": "bf5829d5-b0d2-42e3-86fa-bd2fa3752ad2",
+      "seed": 100100,
+      "params": {
+        "seed": 100100,
+        "complexity": "complex",
+        "sector": "retail",
+        "topic": "payment_issue",
+        "outcome": "unresolved_passive",
+        "style": "casual",
+        "client_archetype": "conspirologist",
+        "agent_archetype": "hands_tied",
+        "twist": "client_calms_down",
+        "conflict_type": "none",
+        "emotional_arc": "rollercoaster",
+        "n_messages": 6,
+        "use_dolphin": true
+      },
+      "characters": {
+        "client": {
+          "name": "Sage",
+          "mood": "frazzled",
+          "personality": [
+            "on-edge",
+            "suspicious"
+          ],
+          "backstory": "Dealt with sketchy online transactions and feels involved in a conspiracy against customers.",
+          "quirks": []
+        },
+        "agent": {
+          "name": "Lena",
+          "mood": "frustrated",
+          "personality": [
+            "patient",
+            "empathetic"
+          ],
+          "backstory": "has been working non-stop for the past 8 hours and is feeling trapped by rigid policies that restrict her ability to resolve customers' issues efficiently.",
+          "quirks": []
+        }
+      },
+      "messages": [
+        {
+          "role": "client",
+          "turn": 1,
+          "content": "My order was charged twice! You're just trying to scam us",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 2,
+          "content": "I can understand why that would be upsetting, let's look into it right away.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 3,
+          "content": "It’s deliberate; you always have issues like this!",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "agent",
+          "turn": 4,
+          "content": "I assure you we’re here to help resolve any issues quickly.",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 5,
+          "content": "Okay, maybe you're not lying. Can you fix it now?",
+          "emotion": null,
+          "intensity": null
+        },
+        {
+          "role": "client",
+          "turn": 6,
+          "content": "thanks for your help. i’ll wait and see.",
+          "emotion": null,
+          "intensity": null
+        }
+      ],
+      "meta": {
+        "total_time_s": 26.74,
+        "model_used": "qwen2.5:7b",
+        "stages_run": [
+          "0",
+          "1",
+          "5",
+          "6"
+        ],
+        "stages_skipped": [
+          "2a",
+          "2b",
+          "3",
+          "4",
+          "4B"
+        ],
+        "dirt_applied": [
+          "punct_drop:turn1",
+          "lowercase:turn6"
+        ]
+      }
+    }
+  ]
+}

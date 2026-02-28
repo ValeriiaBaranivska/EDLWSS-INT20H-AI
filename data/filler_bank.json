@@ -1,0 +1,78 @@
+{
+  "filled_pauses": [
+    {
+      "word": "uh",
+      "prob": 0.31
+    },
+    {
+      "word": "um",
+      "prob": 0.28
+    },
+    {
+      "word": "well",
+      "prob": 0.12
+    },
+    {
+      "word": "like",
+      "prob": 0.09
+    },
+    {
+      "word": "so",
+      "prob": 0.08
+    },
+    {
+      "word": "okay",
+      "prob": 0.06
+    },
+    {
+      "word": "right",
+      "prob": 0.04
+    },
+    {
+      "word": "yeah",
+      "prob": 0.02
+    }
+  ],
+  "discourse_markers": [
+    {
+      "phrase": "you know",
+      "prob": 0.18
+    },
+    {
+      "phrase": "I mean",
+      "prob": 0.15
+    },
+    {
+      "phrase": "actually",
+      "prob": 0.11
+    },
+    {
+      "phrase": "basically",
+      "prob": 0.08
+    },
+    {
+      "phrase": "honestly",
+      "prob": 0.07
+    },
+    {
+      "phrase": "look",
+      "prob": 0.06
+    },
+    {
+      "phrase": "listen",
+      "prob": 0.05
+    },
+    {
+      "phrase": "anyway",
+      "prob": 0.04
+    },
+    {
+      "phrase": "so yeah",
+      "prob": 0.03
+    },
+    {
+      "phrase": "I guess",
+      "prob": 0.03
+    }
+  ]
+}

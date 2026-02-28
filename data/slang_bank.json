@@ -1,0 +1,102 @@
+[
+  {
+    "acronym": "ngl",
+    "expansion": "not gonna lie",
+    "weight": 0.042
+  },
+  {
+    "acronym": "tbh",
+    "expansion": "to be honest",
+    "weight": 0.038
+  },
+  {
+    "acronym": "lmk",
+    "expansion": "let me know",
+    "weight": 0.031
+  },
+  {
+    "acronym": "idk",
+    "expansion": "I don't know",
+    "weight": 0.029
+  },
+  {
+    "acronym": "omg",
+    "expansion": "oh my god",
+    "weight": 0.027
+  },
+  {
+    "acronym": "smh",
+    "expansion": "shaking my head",
+    "weight": 0.024
+  },
+  {
+    "acronym": "imo",
+    "expansion": "in my opinion",
+    "weight": 0.021
+  },
+  {
+    "acronym": "btw",
+    "expansion": "by the way",
+    "weight": 0.019
+  },
+  {
+    "acronym": "brb",
+    "expansion": "be right back",
+    "weight": 0.017
+  },
+  {
+    "acronym": "asap",
+    "expansion": "as soon as possible",
+    "weight": 0.015
+  },
+  {
+    "acronym": "fyi",
+    "expansion": "for your information",
+    "weight": 0.014
+  },
+  {
+    "acronym": "idc",
+    "expansion": "I don't care",
+    "weight": 0.012
+  },
+  {
+    "acronym": "wtf",
+    "expansion": "what the f***",
+    "weight": 0.011
+  },
+  {
+    "acronym": "lol",
+    "expansion": "laughing out loud",
+    "weight": 0.01
+  },
+  {
+    "acronym": "irl",
+    "expansion": "in real life",
+    "weight": 0.009
+  },
+  {
+    "acronym": "fomo",
+    "expansion": "fear of missing out",
+    "weight": 0.008
+  },
+  {
+    "acronym": "yolo",
+    "expansion": "you only live once",
+    "weight": 0.007
+  },
+  {
+    "acronym": "tl;dr",
+    "expansion": "too long didn't read",
+    "weight": 0.006
+  },
+  {
+    "acronym": "afaik",
+    "expansion": "as far as I know",
+    "weight": 0.005
+  },
+  {
+    "acronym": "imho",
+    "expansion": "in my humble opinion",
+    "weight": 0.004
+  }
+]

@@ -1,0 +1,220 @@
+======================================================================
+CUSTOMER SUPPORT DIALOGUE ANALYSIS SUMMARY
+Model: glm-4.7
+Total dialogues analyzed: 10
+======================================================================
+
+----------------------------------------------------------------------
+DIALOGUE seed=100000 | payment_issue | resolved_quick | formal
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: Basically, i just found out my payment was declined. This isn't what I expected from your service!
+  Agent: That, let me check this for you right away.
+
+ANALYSIS:
+  Summary: The client reported a declined payment and expressed dissatisfaction with the service. The agent immediately offered to investigate the issue, leading to a quick resolution.
+  Intent: payment_issue
+  Satisfaction: satisfied (0.8)
+  Quality Score: 4/5
+  Agent Mistakes: none
+  Hidden Dissatisfaction: False
+  Emotional Arc: deescalates
+  Conflict Level: low
+
+----------------------------------------------------------------------
+DIALOGUE seed=100100 | payment_issue | unresolved_passive | casual
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: Why is my payment stuck? You're just stalling!
+  Agent: I’m sorry for the delay. Let me check right away.
+  Client: Ugh, this is frustrating! It feels like a scam.
+  Agent: I understand how you feel. I’ll speed up the process.
+  Client: Thanks... This better work this time.
+  Client: Alright, thanks FOR trying.
+
+ANALYSIS:
+  Summary: The client begins the interaction angry and suspicious about a stuck payment, accusing the agent of stalling and potential scamming. The agent successfully deescalates the situation by apologizing and validating the client's frustration, though the actual payment issue remains unresolved. The conversation ends on a passive note with the client expressing gratitude for the agent's attempt to help.
+  Intent: payment_issue
+  Satisfaction: neutral (0.5)
+  Quality Score: 3/5
+  Agent Mistakes: none
+  Hidden Dissatisfaction: True
+  Emotional Arc: deescalates
+  Conflict Level: medium
+
+----------------------------------------------------------------------
+DIALOGUE seed=100200 | technical_error | resolved_neutral | casual
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: This policy isn't working! I've been trying all day and it's not helping.
+  Agent: That, let's sort this out quickly.
+  Client: it's not! why can't you just fix it?
+  Agent: Bear with me — my mistake earlier caused the delay. Let me check again now.
+  Agent: The issue should be resolved. Please try it again.
+
+ANALYSIS:
+  Summary: The client is frustrated that a policy is not working after trying all day. The agent apologizes for a previous delay, admits to a mistake, and informs the client that the issue should now be resolved.
+  Intent: technical_error
+  Satisfaction: neutral (0.4)
+  Quality Score: 4/5
+  Agent Mistakes: none
+  Hidden Dissatisfaction: True
+  Emotional Arc: deescalates
+  Conflict Level: medium
+
+----------------------------------------------------------------------
+DIALOGUE seed=100300 | technical_error | conflict | aggressive
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: yeah, my flight wws canceled again! how many times do i have to complain before anyone listens?
+  Agent: Bear with me — about the delay, sir.
+  Client: This is unacceptable. You owe me a voucher or something!
+  Agent: We can offer you a voucher for your inconvenience.
+  Agent: It might take some time due to system updates. We're working on it.
+
+ANALYSIS:
+  Summary: The client expresses anger over a repeated flight cancellation and aggressively demands a voucher. The agent complies with the request but introduces a new point of friction by mentioning system delays, resulting in a mediocre resolution.
+  Intent: technical_error
+  Satisfaction: unsatisfied (0.3)
+  Quality Score: 2/5
+  Agent Mistakes: ['lack_of_empathy', 'unnecessary_escalation']
+  Hidden Dissatisfaction: True
+  Emotional Arc: escalates
+  Conflict Level: high
+
+----------------------------------------------------------------------
+DIALOGUE seed=100400 | account_access | resolved_quick | formal
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: Honestly, i urgently need to RESET my login password right now.
+  Agent: Your security is important. Can you verify your identity?
+  Client: Yes, it's me! Why so slow?
+  Agent: I’m processing quickly. Please provide your account number.
+  Client: ugh, why can't i just do this myself?
+  Agent: Verifying now; password reset will follow shortly.
+
+ANALYSIS:
+  Summary: The client urgently requests a password reset and expresses frustration with the verification process. The agent maintains a professional demeanor, verifies the identity, and successfully initiates the reset.
+  Intent: account_access
+  Satisfaction: neutral (0.6)
+  Quality Score: 3/5
+  Agent Mistakes: ['lack_of_empathy']
+  Hidden Dissatisfaction: False
+  Emotional Arc: rollercoaster
+  Conflict Level: low
+
+----------------------------------------------------------------------
+DIALOGUE seed=100500 | account_access | unresolved_ragequit | aggressive
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: um, why can't I log in? It's been 2 days
+  Agent: You're having trouble.
+  Client: um, this is ridicullus! my doctor nerds my info now
+  Agent: Let me check your account status quickly.
+  Client: Just fix it already!
+  Agent: I'll get this resolved as fast as possible.
+  Client: uh, fine, whatever.
+
+ANALYSIS:
+  Summary: The client expresses frustration over a two-day login outage that is blocking access to medical information. The agent provides robotic, unhelpful responses, causing the client's anger to spike before they ultimately give up and leave the conversation unresolved.
+  Intent: account_access
+  Satisfaction: unsatisfied (0.1)
+  Quality Score: 1/5
+  Agent Mistakes: ['lack_of_empathy', 'no_resolution', 'slow_response', 'unnecessary_escalation']
+  Hidden Dissatisfaction: False
+  Emotional Arc: rollercoaster
+  Conflict Level: high
+
+----------------------------------------------------------------------
+DIALOGUE seed=100600 | billing_question | info_only | casual
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: um, why hasn't my latest bill arrived yet? It's been two eeeks!
+  Agent: I understand you're busy, but let me check on that for you.
+  Client: This is urgent! My payment plan depends on it
+  Agent: I'll expedite the process right away.
+  Agent: Your bill should arrive within 24 hours. Is there anything else?
+
+ANALYSIS:
+  Summary: The client inquired about a missing bill, expressing urgency due to a payment plan. The agent checked the status and promised to expedite the bill's arrival within 24 hours.
+  Intent: billing_question
+  Satisfaction: satisfied (0.7)
+  Quality Score: 4/5
+  Agent Mistakes: none
+  Hidden Dissatisfaction: False
+  Emotional Arc: deescalates
+  Conflict Level: low
+
+----------------------------------------------------------------------
+DIALOGUE seed=100700 | billing_question | resolved_neutral | formal
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: i insist my bill was incorrectly calculated this month, yet i received a notice for an overpayment.
+  Agent: Can you provide your account number? Let's check together.
+  Client: It’s 123456789. Why do I have to prove something that clearly is wrong?
+  Agent: Sorry, got another chat — sorry for any confusion. I’ll verify right away.
+  Agent: Bear with me — your bill was correct, but there was a refund error last month. We'll adjust it now.
+
+ANALYSIS:
+  Summary: The client insisted their bill was incorrect and expressed frustration about having to verify the account. The agent apologized for a delay, identified a refund error from the previous month, and immediately adjusted the account.
+  Intent: billing_question
+  Satisfaction: neutral (0.6)
+  Quality Score: 3/5
+  Agent Mistakes: none
+  Hidden Dissatisfaction: False
+  Emotional Arc: deescalates
+  Conflict Level: medium
+
+----------------------------------------------------------------------
+DIALOGUE seed=100800 | refund_request | unresolved_passive | passive_aggressive
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: I booked a room last year, it was perfect. This time it stunk.
+  Agent: One moment — that, can you tell me more?
+  Client: um, the cleanliness and service were awful. It's a shame FOR your supposedly top-tier hotel.
+  Agent: Let me check the details on this for you.
+  Client: Actually, just speed it up, please.
+  Client: alright, thanks.
+
+ANALYSIS:
+  Summary: The client complained about cleanliness and service, using sarcasm to criticize the hotel's reputation. The agent failed to address the emotional tone or specific issues effectively, leading the client to impatiently end the interaction without a resolution.
+  Intent: refund_request
+  Satisfaction: unsatisfied (0.3)
+  Quality Score: 1/5
+  Agent Mistakes: ['lack_of_empathy', 'no_resolution', 'slow_response']
+  Hidden Dissatisfaction: True
+  Emotional Arc: rollercoaster
+  Conflict Level: medium
+
+----------------------------------------------------------------------
+DIALOGUE seed=100900 | refund_request | resolved_quick | casual
+----------------------------------------------------------------------
+
+CONVERSATION:
+  Client: Actually, well, this is BS! You guys used to have great service, now what?
+  Agent: You're upset. Let's fix this.
+  Client: Fix it? How can you 'fix' it when you screw up so badly?
+  Agent: Let's look into this together.
+  Client: Look, fine. But do something about the delay, okay?
+  Agent: Absolutely, we'll expedite it right away.
+  Client: So yeah, alright, THANKS. Sorry for yelling.
+  Agent: Sorry, got another chat — no problem. Glad to help.
+
+ANALYSIS:
+  Summary: The client starts off angry about a service issue, expressing frustration with the company's decline. The agent quickly deescalates the situation by acknowledging the client's feelings and offering to expedite the refund, leading to a positive resolution where the client apologizes for their initial outburst.
+  Intent: refund_request
+  Satisfaction: satisfied (0.8)
+  Quality Score: 4/5
+  Agent Mistakes: none
+  Hidden Dissatisfaction: False
+  Emotional Arc: deescalates
+  Conflict Level: medium
